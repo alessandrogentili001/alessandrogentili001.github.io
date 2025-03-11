@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alessandro Gentili - AI and Machine Learning specialist, University of Bologna student">
     <title>Alessandro Gentili - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -20,15 +22,81 @@
     </header>
 
     <main>
-        <section id="home">
-            <h2>Welcome to My Personal Website</h2>
-            <p>Hello! I'm Alessanro, a student at University of Bologna passionate about artificial intelligence. 
-            Explore my website to learn more about me, my projects, and how to get in touch.</p>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>AI & Machine Learning Specialist</h2>
+                    <p class="tagline">Building intelligent solutions for tomorrow's challenges</p>
+                    <p class="intro">I'm a passionate AI researcher and developer studying at the University of Bologna, focused on creating innovative machine learning applications that solve real-world problems.</p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn primary-btn">View My Work</a>
+                        <a href="contact.html" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Replace with your actual image when available -->
+                    <img src="https://via.placeholder.com/400" alt="Alessandro Gentili" class="profile-hero">
+                </div>
+            </div>
+        </section>
+        
+        <section id="featured-skills" class="skills-highlight">
+            <h2>Specialized In</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Developing predictive models and algorithms for complex data analysis</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Software Development</h3>
+                    <p>Building robust applications with Python, JavaScript, and Java</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot skill-icon"></i>
+                    <h3>AI Research</h3>
+                    <p>Exploring cutting-edge techniques in neural networks and NLP</p>
+                </div>
+            </div>
+            <div class="skills-cta">
+                <a href="about.html" class="btn outline-btn">More About My Skills</a>
+            </div>
+        </section>
+        
+        <section id="featured-projects" class="projects-preview">
+            <h2>Featured Projects</h2>
+            <div class="featured-project">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/500x300" alt="Featured Project" class="project-img">
+                </div>
+                <div class="project-details">
+                    <h3>Neural Network for Image Recognition</h3>
+                    <p>Developed a convolutional neural network that achieves 95% accuracy in classifying medical images, potentially aiding in early disease detection.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Computer Vision</span>
+                    </div>
+                    <a href="projects.html" class="btn small-btn">View Project</a>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="projects.html" class="btn outline-btn">See All Projects</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; 2024 Alessandro Gentili. All rights reserved.</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/alessandrogentili001" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alessandro-gentili-001010246" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
